@@ -198,3 +198,39 @@ button {
   display: flex;
   justify-content: flex-end;
 }
+/* footer */
+footer {
+  background-color: #0a22f4;
+}
+.line {
+  max-width: 1493px;
+  min-height: 1px;
+  background-color: rgb(76, 76, 219);
+  width: 75%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.footer-container p {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: helveticabold;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.hart {
+  max-width: 26px;
+}
+.smartweb {
+  max-width: 121px;
+}
+.footer-container div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
