@@ -94,12 +94,13 @@ header ul li {
 .container-4 {
   background-color: #0a22f4;
   margin-top: 180px;
+  max-width: 1920px;
 }
 .container-5 {
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-between;
   align-items: center;
-  max-width: 1920px;
+  max-width: 1439px;
   min-height: 1080px;
   width: 75%;
   margin: auto;
@@ -174,6 +175,7 @@ label {
   border: none;
   padding: 15px;
   border-bottom: 1px solid rgb(76, 76, 219);
+  min-width: 463px;
 }
 .form-row textarea {
   background-color: #0a22f4;
