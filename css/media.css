@@ -115,7 +115,6 @@
     width: 100%;
     max-width: 375px;
     margin: auto;
-    margin-top: -190px;
   }
   .footer-container {
     width: 89%;
@@ -124,6 +123,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -190px;
   }
   .footer-container p {
     font-size: 13px;
@@ -139,6 +139,8 @@
   }
   .first p {
     opacity: 0.6;
-    padding-top: 39px;
+  }
+  .first p {
+    margin-top: 39px;
   }
 }
