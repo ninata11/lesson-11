@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SKY HOUSE</title>
@@ -27,9 +28,9 @@
       <section class="container">
         <img src="css/images/1.png" alt="building" />
       </section>
-      <section class="space container-2">
+      <section class="space container-2 wrapper">
         <h2>რატომ ვიყენებთ მას და საიდან მოდის ეს ტექსტი?</h2>
-        <div>
+        <div class=" sections-div">
           <img src="css/images/2.png" alt="building" />
           <img src="css/images/3.png" alt="building" />
           <img src="css/images/4.png" alt="building" />
@@ -37,7 +38,7 @@
           <img src="css/images/6.png" alt="building" />
         </div>
       </section>
-      <section class="container-3 space">
+      <section class="container-3 wrapper ">
         <p>
           ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის
           ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის
@@ -78,12 +79,13 @@
           ახლოსაა რეალურთან. გენერირებული Lorem Ipsum არასოდეს არ არის
           გამეორებადი, შემთხვევითი სიტყვების ან ხუმრობების შემცველი.
         </p>
-        <div class="space"><p class="read-more">დამატებითი ინფორმაცია</p></div>
+        <div class=" read-more space"> <a href="#">დამატებითი ინფორმაცია</a></div>
       </section>
-      <section class="container-4">
+      <section class="container-4 wrapper">
         <div class="container-5">
+            
           <div class="line-1">
-            <h2>კონტაქტი</h2>
+            <h2 class="name">კონტაქტი</h2>
             <p>
               Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
               იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა
@@ -91,7 +93,7 @@
             </p>
             <div>
               <iframe
-                class="map"
+                class="map "
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95209.2695494938!2d44.742793950050135!3d41.77897042745493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472b82b6f835d%3A0x13d9fb6a0fac64e2!2sM%2FS%20Nadzaladevi!5e0!3m2!1sen!2sus!4v1709487454847!5m2!1sen!2sus"
                 width="463"
                 height="197"
@@ -111,6 +113,7 @@
             </div>
           </div>
           <div class="line-2">
+            <h2 class="name">კონტაქტი</h2>
             <form action="#">
               <div class="form-row">
                 <label for="user-info">სახელი,გვარი</label>
@@ -139,25 +142,30 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer >
         <div class="line"></div>
       <div class="footer-container">
-        <div>
+        <div class="first">
           <p>ყველა უფლება დაცულია</p>
         </div>
         <div>
-          <div>
+          <div class="second">
             <p>დამზადებულია</p>
             <img class="hart" src="css/images/Group 73.png" alt="hart" />
             <p>-ით</p>
           </div>
-          <div>
+          <div class="third">
             <img
               clsass="smartweb"
               src="css/images/Group 72.png"
               alt="smartacademy"
             />
           </div>
+        </div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
       </div>
     </footer>

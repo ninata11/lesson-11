@@ -20,10 +20,12 @@ header {
   margin: auto;
   justify-content: space-around;
   padding-bottom: 287px;
+
   background-color: #0a22f4;
 }
 header img {
   max-width: 115px;
+  min-height: 65px;
 }
 header ul {
   display: flex;
@@ -66,9 +68,18 @@ header ul li {
   padding-top: 30px;
   padding-bottom: 60px;
 }
-.container-2 div {
+.sections-div {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
+}
+.sections-div img {
+  max-width: 219px;
+}
+.container-3 {
+  max-width: 951px;
+  width: 49%;
+  margin: auto;
 }
 .container-3 p {
   font-size: 16px;
@@ -85,9 +96,16 @@ header ul li {
   align-items: center;
   margin-top: 58px;
 }
+
 .read-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.read-more a {
   color: #ffffff;
   font-family: helveticabold;
+  font-size: 16px;
 }
 
 /* last page */
@@ -104,6 +122,9 @@ header ul li {
   min-height: 1080px;
   width: 75%;
   margin: auto;
+}
+.neme {
+  display: none;
 }
 .line-1 {
   max-width: 600px;
@@ -233,4 +254,6 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
+}
+.burger {
 }
